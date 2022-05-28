@@ -3,7 +3,6 @@
         "@babel/env"
     ],
     "plugins": [
-        "convert-to-json",
         ["@babel/transform-runtime",{
             "regenerator": true
         }]
