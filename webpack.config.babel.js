@@ -9,7 +9,7 @@ export default {
 	context: resolve(__dirname),
 	output: {
 		filename: 'client.js',
-		path: resolve(__dirname, "app")
+		path: resolve(__dirname, "public")
 	},
 	node: {
 		__dirname: false
